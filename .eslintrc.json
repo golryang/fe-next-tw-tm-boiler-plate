@@ -1,0 +1,13 @@
+{
+  "extends": ["next/core-web-vitals","airbnb", "airbnb-typescript", "prettier"],
+  "parserOptions": {
+    "project": "./tsconfig.json"
+  },
+  "rules": {
+    "react/react-in-jsx-scope": "off",
+    "react/jsx-no-useless-fragment": "off",
+    "react/function-component-definition": "off",
+    "lines-around-directive": "off",
+    "@typescript-eslint/no-unused-vars": "off"
+  }
+}
